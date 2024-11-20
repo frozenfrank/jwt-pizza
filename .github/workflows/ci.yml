@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '20.x'
 
-      - name: set version
+      - name: Set version
         id: set_version
         run: |
           version=$(date +'%Y%m%d.%H%M%S')
@@ -43,7 +43,7 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     env:
-      version: ${{needs.build.outputs.version}}
+      version: ${{ needs.build.outputs.version }}
     steps:
       - name: Create OIDC token to AWS
         uses: aws-actions/configure-aws-credentials@v4
@@ -70,7 +70,7 @@ jobs:
       - deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Create Release
+      - name: Create release
         uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5
         env:
           version: ${{needs.build.outputs.version}}
