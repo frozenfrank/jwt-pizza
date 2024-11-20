@@ -40,8 +40,8 @@ jobs:
   deploy:
     needs: build
     environment:
-      name: production
-      url: https://pizza.wheatharvest.llc
+      name: staging
+      url: https://stage-pizza.wheatharvest.llc
     permissions:
       id-token: write
     runs-on: ubuntu-latest
