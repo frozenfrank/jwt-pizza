@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '20.x'
 
-      - name: set version
+      - name: Set version
         id: set_version
         run: |
           version=$(date +'%Y%m%d.%H%M%S')
@@ -70,16 +70,22 @@ jobs:
       - deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Create Release
-        uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
           version: ${{needs.build.outputs.version}}
         with:
-          tag: version-${{ env.version }}
-          name: Version ${{ env.version }}
+          tag_name: version-${{ env.version }}
+          release_name: Version ${{ env.version }}
           body: |
             ## 🚀 Changes
 
             ${{ github.event.head_commit.message }}
 
             **commit**: ${{ github.sha }}
+
+      - name: Print release URL
+        run: |
+          echo ${{ steps.create_release.outputs.html_url }}
