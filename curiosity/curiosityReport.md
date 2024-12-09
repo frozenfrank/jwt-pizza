@@ -51,3 +51,43 @@ of the item.
 - [What is the most efficient way to guard the `main` branch of organization repos?](https://github.com/softwareconstruction240/softwareconstruction/issues/165)
 
 - [Submitted a well-researched and documented issue to Grafana](https://github.com/grafana/grafana/issues/97386)
+
+## Class Contributions
+
+Over the course of the semester, I have submitted many PRs with varying quantities of changes.
+Some of the PRs have single commits with simple typos, and others have more extensive contributions.
+
+Each of the following issues, PRs, and commits represent work above and beyond the minimal requirements
+of my own projects to contribute to a better future for other students. They were all contributed
+freely of my own accord, out of a desire to help other students.
+
+The highlighted contributions feature either an application of prior knowledge or a curiosity dive
+into related material in order to present an acceptable change for future semesters.
+For example, hardening the `github-ci` IAM rights required reading through AWS documentation
+pages and other examples to figure out what the minimal required set of permissions should be
+to still function properly.
+
+Note that some of these may have been referred to in whole or in party by the [Deep Dive projects](#deep-dive-projects) section above.
+
+* **TOTAL** (organization: `devops329`)
+  * [**23 merged PRs**](https://github.com/search?q=org%3Adevops329+is%3Apr+is%3Amerged+author%3Afrozenfrank&type=pullrequests)
+  * [28 total PRs](https://github.com/search?q=org%3Adevops329+author%3Afrozenfrank&type=pullrequests)
+  * [6 issues](https://github.com/search?q=org%3Adevops329+author%3Afrozenfrank&type=issues)
+  * [39 commits](https://github.com/search?q=org%3Adevops329+author%3Afrozenfrank&type=commits)
+* Instructions (`devops329/devops`)
+  * [**21 merged PRs**](https://github.com/devops329/devops/pulls?q=author%3Afrozenfrank+is%3Amerged), 26 total
+  * [6 total issues](https://github.com/devops329/devops/issues?q=is%3Aissue+author%3Afrozenfrank+), 5 completed and 1 still open
+  * Highlights
+    * [Adjust Grafana Instruction Pages](https://github.com/devops329/devops/pull/102)
+    * [Resolve 3rd party action security hole](https://github.com/devops329/devops/pull/95)
+    * [Harden github-ci IAM rights (tested)](https://github.com/devops329/devops/pull/94)
+    * [Update awsEcr.md Provide Provenance flag to avoid "three artifact" behavior](https://github.com/devops329/devops/pull/90)
+    * [Update jwtPizzaServiceContainer.md Refer to Docker image by tag](https://github.com/devops329/devops/pull/76)
+* JWT Pizza client (`devops329/jwt-pizza`)
+  * [**1 merged PR**](https://github.com/devops329/jwt-pizza/pulls?q=author%3Afrozenfrank+)
+  * Highlight:
+    * [Exclude .vite from .gitignore](https://github.com/devops329/jwt-pizza/pull/5)
+* JWT Pizza server (`devops329/jwt-pizza-service`)
+  * [**1 merged PR**](https://github.com/devops329/jwt-pizza-service/pulls?q=author%3Afrozenfrank+)
+  * Highlight:
+    * [Properly await clearAuth() request](https://github.com/devops329/jwt-pizza-service/pull/6)
