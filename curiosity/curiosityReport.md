@@ -41,11 +41,12 @@ of the item.
 
 ## External Curiosity Endeavors
 
-- [Mandelbrot Fractal Calculation](https://github.com/frozenfrank/byu-cs324/blob/master/11a-hw-openmp/RESULTS.md)
+- [Mandelbrot Fractal Calculation](./mandelbrot-fractal-evaluations.md)
     - Went beyond minimum requirements to satisfy my personal curiosity.
     - Learned to use LaTeX expressions for mathematical expressions
     - Gathered my raw data into tables, and then generated a pretty chart to visualize it
     - Wrote a lab-report style summary to introduce my extended family to the problem at hand.
+    - I have **included a copy of this extra writeup** here because the instructor requested the repository to be private. _The copy was created from commit `afd0a4c`._ View the [source file](https://github.com/frozenfrank/byu-cs324/blob/master/11a-hw-openmp/RESULTS.md).
 
 - [What is the most efficient way to guard the `main` branch of organization repos?](https://github.com/softwareconstruction240/softwareconstruction/issues/165)
 
