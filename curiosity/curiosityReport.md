@@ -21,8 +21,8 @@ of the item.
 - [What would it take to migrate to the official `actions/create-release` GitHub action?](https://github.com/devops329/devops/pull/95#issuecomment-2487688517)
 
 - How do I resolve unexpected ESLint errors?
-    - PR: https://github.com/devops329/devops/issues/107
-    - Resource: https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files
+    - [PR](https://github.com/devops329/devops/issues/107)
+    - [Resource](https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files)
 
 - How to generate a chart showing log volume of various error types, assuming low cardinality. Result pictured below.
     ```logql
@@ -31,11 +31,12 @@ of the item.
     ![Image](https://github.com/user-attachments/assets/ac051f10-569d-4b16-8b6e-aa219b7d54ef)
 
 - How do I use TS generics to cleanly represent similar shapes, but modify the prefixes on the keys of the objects?
-    - Typing: https://github.com/frozenfrank/jwt-pizza-service/commit/1c4b6b1c125d33b1a6fdbca7adddbd36d9c103da
-    - Implementation: https://github.com/frozenfrank/jwt-pizza-service/commit/1da322e6494e4f418e5ad5a6e560f41d7170e990
-    - Resource: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as
+    - [Typing](https://github.com/frozenfrank/jwt-pizza-service/commit/1c4b6b1c125d33b1a6fdbca7adddbd36d9c103da)
+    - [Implementation](https://github.com/frozenfrank/jwt-pizza-service/commit/1da322e6494e4f418e5ad5a6e560f41d7170e990)
+    - [Resource](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
 
 - Can I track unique sessions separate from the mere active users?
+    - Commits: [17b4e73](https://github.com/frozenfrank/jwt-pizza-service/commit/17b4e73fc676185918866e4b28cf7db578675baf), [1da322](https://github.com/frozenfrank/jwt-pizza-service/commit/1da322e6494e4f418e5ad5a6e560f41d7170e990), [1c4b6b](https://github.com/frozenfrank/jwt-pizza-service/commit/1c4b6b1c125d33b1a6fdbca7adddbd36d9c103da)
     - ![Image](https://github.com/user-attachments/assets/dc716ef2-bd71-48a8-b974-3916ffa9ca7e)
 
 ## External Curiosity Endeavors
