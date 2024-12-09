@@ -91,3 +91,23 @@ Note that some of these may have been referred to in whole or in party by the [D
   * [**1 merged PR**](https://github.com/devops329/jwt-pizza-service/pulls?q=author%3Afrozenfrank+)
   * Highlight:
     * [Properly await clearAuth() request](https://github.com/devops329/jwt-pizza-service/pull/6)
+
+## Total Time Spent
+
+I use a time logging app called Toggl.com for my own personal time accountability.
+I use it to track my time really closely as I switch between projects, classes,
+and other adventures. The result is a very accurate representation of the total
+time I spent on the different portions of this class.
+
+View my [CS 329 Total Time Report](./img/CS_329_Toggle_Time_Report.pdf).
+
+Note the following details of the reported data:
+* The timestamps really are precise down to the second, and I accurately logged them as I started and stopped each time block.
+* Stopping at Dec 8th, 2024, this report excludes the authorship of this Curiosity Report and any other final conclusions to the semester. It does include the serious majority of all work performed in connection to this class.
+* All _homework assignments_ were grouped together under the same title ("Homework")
+* Each _deliverable_ was tracked under a separate title, but some deliverables may be spread across multiple titles to track major phases of the work.
+* I separated out some of my time on deeper dive projects and curiosity items into the "Curiosity" title, but no very well. Significant portions of the "Homework" and "Deliverable 8 — Metrics" titles may actually included time spent working on things not strictly required to pass the assignment.
+* I fell behind during the semester and spent a serious amount of time catching up over Thanksgiving week.
+* The report has some unnecessary and redundant information because it is capable of supporting other use cases. Mostly just pay attention to:
+  * Time series on the first page.
+  * The "Time Entry" pie chart and associated legend showing total times for each entry
